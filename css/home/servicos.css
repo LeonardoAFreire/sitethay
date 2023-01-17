@@ -1,36 +1,44 @@
-.servicos-bg {
+.servicos-ambientais-bg {
   background: var(--cor-0);
-  padding: 0px 20px;
 }
 
-.servicos {
-  padding: 120px 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0px 40px;
-}
-
-.servicos span {
+.titulo-servicos {
   color: var(--cor-p1);
-  margin-bottom: 20px;
 }
 
-.servicos h2 {
+.servicos-ambientais,
+.servicos-florestais {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.servicos-florestais-bg {
+  background-color: #9acd32;
+}
+
+.servicos-ambientais h2,
+.servicos-florestais h2 {
   color: var(--cor-p1);
   margin-bottom: 40px;
 }
 
-.info-servicos li {
+.servicos {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 0px 40px;
+}
+
+.servicos-lista li {
   color: var(--cor-p1);
   position: relative;
   margin-left: 24px;
 }
 
-.info-servicos li + li {
+.servicos-lista li + li {
   margin-top: 20px;
 }
 
-.info-servicos li::before {
+.servicos-lista li::before {
   content: '';
   display: inline-block;
   width: 24px;
@@ -38,21 +46,20 @@
   background-image: url('../../img/sustentavel.svg');
   position: absolute;
   left: -24px;
-  top: -4px;
+  top: -2px;
 }
 
 @media (max-width: 1200px) {
-  .servicos {
-    padding: 80px 0;
+  .servicos-ambientais,
+  .servicos-florestais {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 
 @media (max-width: 800px) {
   .servicos {
-    padding-top: 40px;
-    padding-bottom: 40px;
     grid-template-columns: 1fr;
-    place-items: center;
   }
 
   .img-servicos {
