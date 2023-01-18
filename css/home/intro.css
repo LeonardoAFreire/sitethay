@@ -1,6 +1,6 @@
 .intro-bg {
   background: var(--cor-p1);
-  box-shadow: inset 0 -120px var(--cor-0);
+  box-shadow: inset 0 -120px var(--cor-1);
 }
 
 .introducao {
@@ -45,7 +45,7 @@
   .intro-bg {
     background: var(--cor-p1);
     padding-top: 40px;
-    box-shadow: inset 0 -60px var(--cor-0);
+    box-shadow: inset 0 -60px var(--cor-1);
   }
 
   .introducao {
