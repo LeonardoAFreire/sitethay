@@ -1,18 +1,35 @@
-.servicos-ambientais-bg {
-  background: var(--cor-1);
+.servicos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
 }
 
-.titulo-servicos {
-  color: var(--cor-p1);
+.servicos-ambientais img {
+  border-radius: 0px;
+  height: auto;
+  width: 100%;
 }
 
-.servicos-ambientais,
-.servicos-florestais {
+.servicos-florestais img {
+  border-radius: 0px;
+  height: 610px;
+}
+
+.servicos-florestais .servicos-lista {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.servicos-ambientais {
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
-.servicos-florestais-bg {
+.servicos-lista {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.servicos-florestais {
   background-color: var(--cor-p3);
 }
 
@@ -20,12 +37,6 @@
 .servicos-florestais h2 {
   color: var(--cor-p1);
   margin-bottom: 40px;
-}
-
-.servicos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0px 40px;
 }
 
 .servicos-lista li {
@@ -50,10 +61,9 @@
 }
 
 @media (max-width: 1200px) {
-  .servicos-ambientais,
-  .servicos-florestais {
-    padding-top: 80px;
-    padding-bottom: 80px;
+  .servicos-ambientais {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
