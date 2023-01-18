@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
+  place-content: center;
   margin: 0 auto;
 }
 
@@ -13,7 +14,6 @@
 
 .servicos-ambientais .servicos-lista {
   padding-top: 40px;
-  align-self: right;
 }
 
 .servicos-florestais img {
