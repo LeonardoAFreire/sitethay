@@ -13,7 +13,7 @@
 }
 
 .servicos-florestais-bg {
-  background-color: #9acd32;
+  background-color: var(--cor-p3);
 }
 
 .servicos-ambientais h2,
