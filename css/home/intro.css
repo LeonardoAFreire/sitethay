@@ -43,10 +43,6 @@
 }
 
 @media (max-width: 800px) {
-  .intro-bg {
-    padding-top: 40px;
-  }
-
   .introducao {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -55,10 +51,5 @@
   .introducao h1 {
     font-size: 2rem;
     margin-bottom: 16px;
-  }
-
-  .introducao img {
-    height: 300px;
-    width: 100%;
   }
 }
