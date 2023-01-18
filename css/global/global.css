@@ -44,6 +44,7 @@ img {
  */
 img[src$='.jpg'] {
   border-radius: 4px;
+  object-fit: cover;
 }
 
 @media (max-width: 800px) {

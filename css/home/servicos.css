@@ -2,26 +2,29 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .servicos-ambientais img {
   border-radius: 0px;
-  height: auto;
+  height: 480px;
   width: 100%;
+}
+
+.servicos-ambientais .servicos-lista {
+  padding-top: 40px;
+  align-self: right;
 }
 
 .servicos-florestais img {
   border-radius: 0px;
   height: 610px;
+  width: 100%;
 }
 
 .servicos-florestais .servicos-lista {
   padding-top: 40px;
   padding-bottom: 40px;
-}
-
-.servicos-ambientais {
-  padding-top: 120px;
 }
 
 .servicos-lista {
