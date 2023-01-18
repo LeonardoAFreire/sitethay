@@ -61,6 +61,9 @@
     font-size: 2rem;
     margin-bottom: 16px;
   }
+  .intro-conteudo .botao {
+    margin-top: 20px;
+  }
 
   .foto-mobile {
     height: 300px;
