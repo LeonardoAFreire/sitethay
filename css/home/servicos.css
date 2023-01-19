@@ -4,9 +4,17 @@
   overflow: hidden;
 }
 
+.servicos.servicos-ambientais .servicos-lista {
+  align-self: end;
+}
+
+.servicos.servicos-florestais .servicos-lista {
+  justify-self: end;
+}
+
 .servicos-ambientais img {
   border-radius: 0px;
-  height: 480px;
+  height: 100%;
   width: 100%;
 }
 
@@ -15,18 +23,17 @@
   margin-bottom: 40px;
 }
 
-.servicos-ambientais .servicos-lista {
-  padding-top: 40px;
-}
-
+.servicos-ambientais .servicos-lista,
 .servicos-florestais .servicos-lista {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .servicos-florestais img {
   border-radius: 0px;
-  height: 610px;
+  height: 100%;
   width: 100%;
 }
 
@@ -64,15 +71,15 @@
   top: -2px;
 }
 
-@media (max-width: 1200px) {
-  .servicos-ambientais {
-    padding-bottom: 60px;
-  }
-}
-
 @media (max-width: 800px) {
   .servicos {
     grid-template-columns: 1fr;
+  }
+
+  .servicos-ambientais .servicos-lista,
+  .servicos-florestais .servicos-lista {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .img-servicos {
