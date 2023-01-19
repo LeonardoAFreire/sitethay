@@ -73,11 +73,11 @@
 
 @media (max-width: 800px) {
   .servicos {
-    grid-template-columns: 1fr;
+    display: block;
   }
-
   .servicos-ambientais .servicos-lista,
   .servicos-florestais .servicos-lista {
+    text-align: left;
     padding-top: 60px;
     padding-bottom: 60px;
   }

@@ -14,7 +14,6 @@
 
 .intro-conteudo {
   display: grid;
-  padding-left: 20px;
 }
 
 .intro-conteudo h1 {
@@ -38,14 +37,10 @@
 
 .foto-mobile {
   display: none;
+  height: 100%;
   width: 100%;
   padding-top: 40px;
   object-fit: cover;
-}
-
-.introducao img {
-  height: 100%;
-  width: 100%;
 }
 
 @media (max-width: 800px) {
