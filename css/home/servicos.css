@@ -4,8 +4,22 @@
   overflow: hidden;
 }
 
+.servicos-ambientais-bg {
+  background-image: url(../../img/mao-test2.jpg);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.servicos-florestais-bg {
+  background-color: var(--cor-p1);
+  background-image: url(../../img/teste-2.jpg);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .servicos.servicos-ambientais .servicos-lista {
-  align-self: end;
+  grid-column: 2;
 }
 
 .servicos.servicos-florestais .servicos-lista {
@@ -35,10 +49,6 @@
   border-radius: 0px;
   height: 100%;
   width: 100%;
-}
-
-.servicos-florestais {
-  background-color: var(--cor-p1);
 }
 
 .servicos-florestais h2 {
@@ -75,6 +85,15 @@
   .servicos {
     display: block;
   }
+
+  .servicos-ambientais-bg {
+    background-image: none;
+  }
+
+  .servicos-florestais-bg {
+    background: var(--cor-p1);
+  }
+
   .servicos-ambientais .servicos-lista,
   .servicos-florestais .servicos-lista {
     text-align: left;
