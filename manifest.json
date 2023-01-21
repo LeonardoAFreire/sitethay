@@ -1,5 +1,19 @@
 {
   "short_name": "Thayle Lopes",
   "name": "Consultoria e projetos ambientais",
+  "background-color": "#0e373e",
+  "categories" : ["business"],
+  "icons": [
+  {
+    "src": "img/WhatsApp-Logo.wine.svg",
+    "sizes": "80x120",
+    "type": "image/svg"
+  },
+  {
+    "src": "img/sustentavel.svg",
+    "sizes": "24x24",
+    "type": "image/svg"
+  }
+  ],
   "start_url": "/"
 }
