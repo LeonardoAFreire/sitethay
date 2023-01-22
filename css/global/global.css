@@ -19,7 +19,7 @@ dd {
   height: 80px;
   width: 120px;
   position: fixed;
-  bottom: 25px;
+  bottom: 0px;
   right: -20px;
   z-index: 99999;
 }
