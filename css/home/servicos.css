@@ -36,12 +36,18 @@
   margin-bottom: 40px;
 }
 
+.servicos-ambientais .servicos-lista {
+  padding-left: 20px;
+}
+
+.servicos-florestais .servicos-lista {
+  padding-right: 20px;
+}
+
 .servicos-ambientais .servicos-lista,
 .servicos-florestais .servicos-lista {
   padding-top: 120px;
   padding-bottom: 120px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .servicos-florestais img {
