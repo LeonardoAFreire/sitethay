@@ -1,7 +1,6 @@
 .servicos {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  overflow: hidden;
 }
 
 .servicos-ambientais-bg {
@@ -13,7 +12,7 @@
 .servicos-florestais-bg {
   background-color: var(--cor-p1);
   background-image: url(../../img/teste-2.jpg);
-  background-size: 50% 100%;
+  background-size: 50% 101%;
   background-repeat: no-repeat;
   background-position: right;
 }

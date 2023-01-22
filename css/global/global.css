@@ -43,7 +43,6 @@ img {
    ^ para atributos que começam com o valor x
  */
 img[src$='.jpg'] {
-  border-radius: 4px;
   object-fit: cover;
 }
 
