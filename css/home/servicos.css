@@ -6,6 +6,8 @@
 .servicos-ambientais-bg {
   background-image: url(../../img/mao-test2.jpg);
   background-size: 50% 100%;
+  background-attachment: fixed;
+
   background-repeat: no-repeat;
 }
 
@@ -13,6 +15,8 @@
   background-color: var(--cor-p1);
   background-image: url(../../img/teste-2.jpg);
   background-size: 50% 101%;
+  background-attachment: fixed;
+
   background-repeat: no-repeat;
   background-position: right;
 }
