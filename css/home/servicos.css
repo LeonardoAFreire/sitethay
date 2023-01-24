@@ -7,7 +7,6 @@
   background-image: url(../../img/mao-test2.jpg);
   background-size: 50% 100%;
   background-attachment: fixed;
-
   background-repeat: no-repeat;
 }
 
@@ -24,10 +23,6 @@
   grid-column: 2;
 }
 
-.servicos.servicos-florestais .servicos-lista {
-  justify-self: end;
-}
-
 .servicos-ambientais img {
   border-radius: 0px;
   height: 100%;
@@ -40,7 +35,7 @@
 }
 
 .servicos-ambientais .servicos-lista {
-  padding-left: 120px;
+  padding-left: 20px;
 }
 
 .servicos-florestais .servicos-lista {
