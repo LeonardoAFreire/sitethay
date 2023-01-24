@@ -6,17 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content="#0e373e" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Site que oferece serviços de consultoria e projetos florestais no estado de Mato Grosso">
+  <meta name="description" content="Serviços de consultoria e projetos florestais no estado de Mato Grosso">
   <meta name="keywords" content="Consultoria Ambiental, Projetos Florestais, Serviços Florestais">
   <meta name="robots" content="index, follow">
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="./css/style.css">
   <link rel="manifest" href="manifest.json">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <title>Thayle Lopes - Consultoria e Projetos Ambientais</title>
+  <script> document.documentElement.className += " js";</script>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
       <nav aria-label="primaria" class="menu">
         <ul class="header-menu font-1-m" data="menu">
           <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#servicos">Sobre</a></li>
+          <li><a href="#sobre">Sobre</a></li>
           <li><a href="#servicos">Contato</a></li>
         </ul>
       </nav>
@@ -38,7 +38,7 @@
 
   <main class="intro-bg">
 
-    <div class="introducao container">
+    <div class="introducao container" data-anime="scroll">
       <div class="intro-conteudo">
         <h1 class="font-1-xxl">Consultoria e projetos ambientais</h1>
 
@@ -58,8 +58,8 @@
   </main>
 
 
-  <section class="  servicos-ambientais-bg" aria-label="Serviços Ambientais" id="servicos">
-    <div class="container servicos servicos-ambientais">
+  <section class="servicos-ambientais-bg" aria-label="Serviços Ambientais" id="servicos">
+    <div class="container servicos servicos-ambientais" data-anime="scroll">
       <div class="servicos-lista">
         <h2 class="font-1-xl">Consultoria Ambiental
         </h2>
@@ -81,7 +81,7 @@
   <section class="servicos-florestais-bg" aria-label="Serviços Florestais">
     <div class="servicos servicos-florestais container">
 
-      <div class="servicos-lista">
+      <div class="servicos-lista" data-anime="scroll">
         <h2 class="font-1-xl">Serviços Florestais </h2>
 
         <ul class="font-2-m">
@@ -100,8 +100,8 @@
     </div>
 
   </section>
-  <section class="sobre container">
-    <h1>Seção Sobre</h1>
+  <section class="sobre container" id="sobre">
+    <h2></h2>
   </section>
 
 
