@@ -2,7 +2,7 @@ export default function initAnimaScroll() {
   const contents = document.querySelectorAll('[data-anime="scroll"]');
 
   if (contents.length) {
-    const windowMetade = window.innerHeight * 0.65;
+    const windowMetade = window.innerHeight * 0.55;
 
     function animaScroll() {
       contents.forEach((item) => {
