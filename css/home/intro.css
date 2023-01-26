@@ -56,7 +56,12 @@
     padding-bottom: 20px;
   }
   .intro-bg {
-    background: var(--cor-p1);
+    background-image: url('../../img/silo.jpg') no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
   }
   .introducao h1 {
     font-size: 2rem;
@@ -68,6 +73,6 @@
 
   .foto-mobile {
     height: 300px;
-    display: block;
+    /* display: block; */
   }
 }
