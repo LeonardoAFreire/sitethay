@@ -44,7 +44,6 @@
   display: none;
   height: 100%;
   width: 100%;
-  margin-top: 20px;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -56,23 +55,28 @@
     padding-bottom: 20px;
   }
   .intro-bg {
-    background-image: url('../../img/silo.jpg') no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: darken;
+    background: var(--cor-p1);
   }
+
+  .intro-bg p {
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .intro-conteudo {
+    padding: 0px;
+  }
+
   .introducao h1 {
     font-size: 2rem;
     margin-bottom: 16px;
   }
   .intro-conteudo .botao {
-    margin-top: 20px;
+    margin: 20px 0;
   }
 
   .foto-mobile {
     height: 300px;
-    /* display: block; */
+    display: block;
   }
 }
