@@ -8,3 +8,5 @@
 /* Home */
 @import './home/intro.css';
 @import './home/servicos.css';
+@import './home/contato.css';
+@import './home/footer.css';
