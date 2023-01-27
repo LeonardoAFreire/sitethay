@@ -1,6 +1,10 @@
 .header-bg {
   background-color: var(--cor-0);
 }
+.logo {
+  width: 160px;
+  height: 80px;
+}
 
 .header {
   display: flex;
