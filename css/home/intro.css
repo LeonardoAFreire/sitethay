@@ -1,7 +1,6 @@
 .intro-bg {
   background-color: var(--cor-p1);
   background-image: url(../../img/silo.jpg);
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 50% 100%;
   background-position: right;
