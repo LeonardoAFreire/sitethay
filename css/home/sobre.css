@@ -60,6 +60,8 @@
   }
 
   .valores {
+    order: 2;
+    margin-top: 20px;
     padding-right: 0px;
   }
 
@@ -68,7 +70,6 @@
   }
 
   .info-sobre {
-    padding-top: 20px;
     padding-left: 0px;
   }
 }

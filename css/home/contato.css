@@ -35,8 +35,18 @@ p {
   margin-top: 10px;
 }
 
-.contato ul li:hover {
-  text-decoration: underline;
+.contato ul li:nth-child(3) {
+  position: relative;
+}
+
+.contato ul li:nth-child(3)::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  bottom: -20px;
+  position: absolute;
+  background-color: var(--cor-0);
 }
 
 .redes {
