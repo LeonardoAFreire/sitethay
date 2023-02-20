@@ -72,9 +72,6 @@
 }
 
 @media (max-width: 700px) {
-  .logo {
-  }
-
   .header {
     flex-direction: column;
   }
