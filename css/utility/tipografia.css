@@ -1,22 +1,22 @@
 .font-1-xs {
-  font: 400 0.75rem/1.35 Arial, Helvetica, sans-serif;
+  font: 400 0.75rem/1.35 'Montserrat', sans-serif;
 }
 
 .font-2-xs {
-  font: 400 0.875rem/1.43 Arial, Helvetica, sans-serif;
+  font: 400 0.875rem/1.43 'Montserrat', sans-serif;
 }
 
 .font-1-s {
-  font: 400 1rem/1.5 Arial, Helvetica, sans-serif;
+  font: 400 1rem/1.5 'Montserrat', sans-serif;
 }
 
 .font-2-s {
-  font: 400 1rem/1.5 Arial, Helvetica, sans-serif;
+  font: 400 1rem/1.5 'Montserrat', sans-serif;
 }
 
 .font-1-m,
 .font-1-m-b {
-  font: 400 1.125rem/1.35 Arial, Helvetica, sans-serif;
+  font: 400 1.125rem/1.35 'Montserrat', sans-serif;
 }
 
 .font-1-m-b {
@@ -24,16 +24,16 @@
 }
 
 .font-2-m {
-  font: 500 1.125rem/1.35 Arial, Helvetica, sans-serif;
+  font: 500 1.125rem/1.35 'Montserrat', sans-serif;
 }
 
 .font-1-l {
-  font: 400 1.5rem/1.5 Arial, Helvetica, sans-serif;
+  font: 400 1.5rem/1.5 'Montserrat', sans-serif;
 }
 
 .font-2-l,
 .font-2-l-b {
-  font: 400 1.5rem/1.5 Arial, Helvetica, sans-serif;
+  font: 400 1.5rem/1.5 'Montserrat', sans-serif;
 }
 
 .font-2-l-b {
@@ -43,11 +43,11 @@
 }
 
 .font-1-xl {
-  font: 400 3rem/1.2 'Cinzel', serif;
+  font: 400 3rem/1.2 'Montserrat', sans-serif;
 }
 
 .font-1-xxl {
-  font: 400 4rem/1.125 'Cinzel', serif;
+  font: 400 4rem/1.125 'Montserrat', sans-serif;
 }
 
 @media (max-width: 1200px) {
