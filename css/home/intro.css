@@ -22,8 +22,6 @@
 .intro-conteudo h1 {
   margin-bottom: 32px;
   color: var(--cor-0);
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
 }
 
 .intro-conteudo p {
@@ -43,7 +41,6 @@
   display: none;
   width: 100%;
   object-fit: cover;
-  border-radius: 4px;
 }
 
 @media (max-width: 800px) {
