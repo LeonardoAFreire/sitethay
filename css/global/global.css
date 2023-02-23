@@ -2,10 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0px;
   font-family: 'Montserrat', Helvetica, sans-serif;
-  overflow-x: hidden;
 }
 
 p {
