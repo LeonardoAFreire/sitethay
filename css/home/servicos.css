@@ -3,34 +3,61 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.servicos-ambientais-bg {
-  background-image: url(../../img/mao-test2.jpg);
-  background-size: 50% 101%;
+.regularizacao-ambiental-bg {
+  background-color: var(--cor-0);
+  background-image: url(../../img/checklist.jpg);
   background-repeat: no-repeat;
+  background-size: 50% 100%;
 }
 
-.servicos-florestais-bg {
+.regularizacao-ambiental {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.regularizacao-ambiental .servicos-lista {
+  grid-column: 2;
+  padding-left: 40px;
+}
+
+.regularizacao-ambiental .servicos-lista p {
+  margin-bottom: 40px;
+}
+
+.regularizacao-ambiental img {
+  height: 450px;
+  width: 450px;
+  justify-self: center;
+}
+
+.servicos-ambientais-bg {
   background-color: var(--cor-p1);
-  background-image: url(../../img/teste-2.jpg);
+  background-image: url(../../img/mao-test2.jpg);
   background-size: 50% 101%;
   background-repeat: no-repeat;
   background-position: right;
 }
 
-.servicos.servicos-ambientais .servicos-lista {
+.servicos-florestais-bg {
+  background-image: url(../../img/teste-2.jpg);
+  background-size: 50% 101%;
+  background-repeat: no-repeat;
+}
+
+.servicos.servicos-florestais .servicos-lista {
   grid-column: 2;
 }
 
-.servicos-ambientais h2 {
-  color: var(--cor-p1);
+.servicos-ambientais h2,
+.regularizacao-ambiental h2 {
   margin-bottom: 40px;
 }
 
-.servicos-ambientais .servicos-lista {
+.servicos-florestais .servicos-lista {
   padding-left: 40px;
 }
 
-.servicos-florestais .servicos-lista {
+.servicos-ambientais .servicos-lista {
   padding-right: 120px;
 }
 
@@ -45,14 +72,8 @@
 }
 
 .servicos-lista li {
-  color: var(--cor-p1);
   position: relative;
   margin-left: 24px;
-}
-
-.servicos-florestais h2,
-.servicos-florestais .servicos-lista li {
-  color: var(--cor-0);
 }
 
 .servicos-lista li + li {
@@ -70,7 +91,19 @@
   top: -2px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+  .regularizacao-ambiental {
+    padding-bottom: 40px;
+  }
+
+  .regularizacao-ambiental-bg {
+    background: var(--cor-0);
+  }
+
+  .regularizacao-ambiental .servicos-lista {
+    padding-left: 0;
+  }
+
   .servicos {
     display: block;
   }
@@ -80,7 +113,7 @@
   }
 
   .servicos-florestais-bg {
-    background: var(--cor-p1);
+    background: var(--cor-0);
   }
 
   .servicos-ambientais .servicos-lista,
@@ -90,6 +123,10 @@
   }
 
   .img-servicos {
+    display: none;
+  }
+
+  .regularizacao-ambiental img {
     display: none;
   }
 }

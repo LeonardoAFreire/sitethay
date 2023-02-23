@@ -48,8 +48,10 @@
   font-size: 1.125rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .sobre {
+    border-top: 1px solid var(--cor-p1);
+
     padding-top: 60px;
     padding-bottom: 60px;
     grid-template-columns: 1fr;
