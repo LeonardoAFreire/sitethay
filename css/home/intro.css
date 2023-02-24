@@ -40,14 +40,14 @@
 .foto-mobile {
   display: none;
   width: 100%;
+  max-width: 100%;
   object-fit: cover;
 }
 
-/* width */
 @media (max-width: 900px) {
   .introducao {
     grid-template-columns: 1fr;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 20px;
   }
 

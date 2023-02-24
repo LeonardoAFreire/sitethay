@@ -2,11 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
-
 body {
   margin: 0px;
   font-family: 'Montserrat', Helvetica, sans-serif;
@@ -68,7 +63,7 @@ img[src$='.jpg'] {
 .js [data-anime='scroll'] {
   opacity: 0;
   transform: translate3d(-30px, 0, 0);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .js [data-anime='scroll'].ativo {

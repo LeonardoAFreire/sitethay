@@ -3,6 +3,7 @@
   padding-bottom: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background: var(--cor-p1);
 }
 
 .valores {
@@ -27,7 +28,6 @@
 }
 
 .valores p {
-  color: var(--cor-p1);
   margin-top: 20px;
   text-align: center;
   font-size: 0.875rem;
@@ -38,12 +38,11 @@
 }
 
 .info-sobre h3 {
-  color: var(--cor-p1);
+  color: var(--cor-0);
   margin-bottom: 20px;
 }
 
 .info-sobre p {
-  color: var(--cor-p1);
   max-width: 75ch;
   font-size: 1.125rem;
 }
