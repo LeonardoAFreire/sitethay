@@ -48,7 +48,7 @@
   font-size: 1.125rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .sobre {
     padding-top: 60px;
     padding-bottom: 60px;
