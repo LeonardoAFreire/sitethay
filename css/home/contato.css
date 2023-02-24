@@ -1,5 +1,6 @@
 .contato {
   display: grid;
+  background-color: #fff;
   grid-template-columns: 1fr 1fr;
 }
 
