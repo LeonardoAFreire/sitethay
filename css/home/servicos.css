@@ -3,6 +3,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.servicos h2 {
+  font-weight: bold;
+}
+
 .regularizacao-ambiental-bg {
   background-color: var(--cor-0);
   background-image: url(../../img/checklist.jpg);

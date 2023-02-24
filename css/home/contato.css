@@ -20,6 +20,7 @@
 
 .contato h3 {
   margin-bottom: 1.125rem;
+  font-weight: bold;
 }
 
 .contato ul li:first-child {

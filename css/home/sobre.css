@@ -39,6 +39,7 @@
 
 .info-sobre h3 {
   color: var(--cor-0);
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
