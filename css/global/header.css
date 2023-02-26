@@ -2,8 +2,8 @@
   background-color: var(--cor-0);
 }
 .logo {
-  width: 360px;
-  height: 180px;
+  height: 140px;
+  width: 280px;
 }
 
 .header {
@@ -90,6 +90,11 @@
 }
 
 @media (max-width: 500px) {
+  .logo {
+    height: 120px;
+    width: 200px;
+  }
+
   .header {
     flex-direction: column;
   }
