@@ -11,7 +11,7 @@
   background-color: var(--cor-0);
   background-image: url(../../img/checklist.jpg);
   background-repeat: no-repeat;
-  background-size: 50% 100%;
+  background-size: 50% 101%;
 }
 
 .regularizacao-ambiental {
@@ -37,14 +37,14 @@
 .servicos-ambientais-bg {
   background-color: var(--cor-p1);
   background-image: url(../../img/mao-test2.jpg);
-  background-size: 50% 100%;
+  background-size: 50% 101%;
   background-repeat: no-repeat;
   background-position: right;
 }
 
 .servicos-florestais-bg {
   background-image: url(../../img/teste-2.jpg);
-  background-size: 50% 100%;
+  background-size: 50% 101%;
   background-repeat: no-repeat;
 }
 
@@ -68,6 +68,11 @@
 .servicos-ambientais .servicos-lista,
 .servicos-florestais .servicos-lista {
   padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.servicos-ambientais {
+  padding-top: 60px;
   padding-bottom: 80px;
 }
 
@@ -132,5 +137,10 @@
 
   .regularizacao-ambiental img {
     display: none;
+  }
+
+  .servicos-ambientais {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
