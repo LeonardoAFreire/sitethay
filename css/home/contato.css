@@ -54,6 +54,10 @@
   display: inline-block;
 }
 
+.redes a + a {
+  margin-left: 8px;
+}
+
 @media (max-width: 800px) {
   .contato {
     grid-template-columns: 1fr;
