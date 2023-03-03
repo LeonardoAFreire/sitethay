@@ -53,11 +53,25 @@ img {
   display: block;
 }
 
+.foto-mobile {
+  display: none;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
 /* Atributo que termina com .jpg = $
    ^ para atributos que começam com o valor x
  */
 img[src$='.jpg'] {
   object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .foto-mobile {
+    height: 300px;
+    display: block;
+  }
 }
 
 @media (max-width: 800px) {

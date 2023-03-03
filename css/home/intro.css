@@ -37,13 +37,6 @@
   color: var(--cor-0);
 }
 
-.foto-mobile {
-  display: none;
-  width: 100%;
-  max-width: 100%;
-  object-fit: cover;
-}
-
 @media (max-width: 900px) {
   .introducao {
     grid-template-columns: 1fr;
@@ -70,10 +63,5 @@
   }
   .intro-conteudo .botao {
     margin: 20px 0;
-  }
-
-  .foto-mobile {
-    height: 300px;
-    display: block;
   }
 }
