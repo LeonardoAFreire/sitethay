@@ -8,12 +8,12 @@
 
 .valores {
   padding-right: 40px;
-  display: grid;
+  display: flex;
   align-items: center;
 }
 
-.valores ul li + li {
-  margin-top: 20px;
+.valores ul {
+  gap: 20px;
 }
 
 .valores ul li {
@@ -31,7 +31,6 @@
 .valores p {
   margin-top: 20px;
   text-align: center;
-  font-size: 0.875rem;
 }
 
 .info-sobre {
@@ -45,7 +44,7 @@
 }
 
 .info-sobre p {
-  max-width: 75ch;
+  max-width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -63,10 +62,6 @@
     order: 2;
     margin-top: 20px;
     padding-right: 0px;
-  }
-
-  .valores ul li + li {
-    margin-top: 20px;
   }
 
   .info-sobre {
