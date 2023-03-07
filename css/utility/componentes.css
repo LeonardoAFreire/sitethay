@@ -20,11 +20,38 @@
   max-width: max-content;
   cursor: pointer;
   transition: 0.4s;
+  animation: pulse 2s infinite;
 }
 
 .botao:hover {
   border-color: var(--cor-p4);
   background: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(65, 66, 26, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 15px rgba(65, 66, 26, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(65, 66, 26, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(65, 66, 26, 0.4);
+    box-shadow: 0 0 0 0 rgba(65, 66, 26, 0.4);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 15px rgba(65, 66, 26, 0);
+    box-shadow: 0 0 0 15px rgba(65, 66, 26, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(65, 66, 26, 0);
+    box-shadow: 0 0 0 0 rgba(65, 66, 26, 0);
+  }
 }
 
 @media (max-width: 800px) {
