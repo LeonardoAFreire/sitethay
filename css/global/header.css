@@ -78,15 +78,15 @@
 
 @media (max-width: 700px) {
   .logo {
-    height: 80px;
-    width: 90px;
+    height: 70px;
+    width: 80px;
   }
 
   .header-menu {
     display: block;
     position: absolute;
     width: 100%;
-    top: 120px;
+    top: 110px;
     right: 0;
     background: rgba(255, 255, 255, 0.8);
     height: 0;
@@ -97,7 +97,7 @@
   }
 
   .header-menu.ativo {
-    height: calc(100vh - 120px);
+    height: calc(100vh - 110px);
     visibility: visible;
     overflow-y: auto;
   }
@@ -108,11 +108,11 @@
     margin: 0 1rem;
     border-radius: 0;
     background: transparent;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.9);
     color: #41421a;
   }
   .header-menu a:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
   }
 
   #btn-mobile {

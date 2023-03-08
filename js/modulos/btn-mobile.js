@@ -1,5 +1,6 @@
 export default function initBtnMobile() {
   const btn = document.getElementById('btn-mobile');
+
   if (btn) {
     function toggleMenu(event) {
       if (event.type === 'touchstart') {
