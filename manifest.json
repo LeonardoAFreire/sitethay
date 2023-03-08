@@ -3,6 +3,7 @@
   "name": "Ramo - Projetos Ambientais",
   "background-color": "#6b704d",
   "categories": ["business"],
+  "theme_color": "#6b704d",
   "icons": [
     {
       "src": "img/WhatsApp-Logo.wine.svg",
