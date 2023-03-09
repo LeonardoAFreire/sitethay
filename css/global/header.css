@@ -134,16 +134,16 @@
     display: block;
     color: #41421a;
     border-top: 2px solid;
-    width: 25px;
+    width: 30px;
   }
 
   #hamburguer::after,
   #hamburguer::before {
     content: '';
-    width: 25px;
+    width: 30px;
     height: 2px;
     display: block;
-    margin-top: 5px;
+    margin-top: 8px;
     background-color: currentColor;
     transition: 0.3s;
     position: relative;
@@ -159,7 +159,7 @@
 
   #nav.ativo #hamburguer::after {
     transform: rotate(-135deg);
-    top: -7px;
+    top: -10px;
   }
 }
 
