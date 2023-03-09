@@ -15,7 +15,7 @@
 
 .logo {
   height: 160px;
-  width: 202px;
+  width: 203px;
 }
 
 .header-menu {
@@ -79,7 +79,7 @@
 @media (max-width: 700px) {
   .logo {
     height: 70px;
-    width: 88px;
+    width: 89px;
   }
 
   #nav button {
