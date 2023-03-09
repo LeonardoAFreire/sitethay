@@ -23,7 +23,7 @@ export default function initBtnMobile() {
     }
 
     btn.addEventListener('click', toggleMenu);
-    btn.addEventListener('touchstart', toggleMenu);
+    btn.addEventListener('touchstart', toggleMenu, { passive: true });
 
     const links = document.querySelectorAll('.header-menu a');
 
